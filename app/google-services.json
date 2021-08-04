@@ -1,0 +1,47 @@
+{
+  "project_info": {
+    "project_number": "822433203068",
+    "project_id": "catering-97a45",
+    "storage_bucket": "catering-97a45.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:822433203068:android:b825ee739ed126eadfdaf9",
+        "android_client_info": {
+          "package_name": "com.example.catering"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "822433203068-rsgb1g69qb95eago4jau4tsbh8qgt9uv.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.catering",
+            "certificate_hash": "808817926561cbb96135f08c81143d950e504cb0"
+          }
+        },
+        {
+          "client_id": "822433203068-q5ijcsbdpepdaddvsvmmge1pimdh9tig.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyALK-3ntMFsPRZzSyIKPSVEvLV9S1ZyIUM"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "822433203068-q5ijcsbdpepdaddvsvmmge1pimdh9tig.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

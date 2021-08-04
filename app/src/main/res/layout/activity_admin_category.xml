@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".AdminCategoryActivity">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/slogan_categori"
+        android:textColor="@color/black"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:textSize="26sp"
+        android:textAlignment="center"
+        android:layout_marginTop="27dp"
+        android:text="Add New Product"
+        android:textStyle="bold"
+        android:gravity="center_horizontal" />
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/slogan_k"
+        android:layout_centerHorizontal="true"
+        android:textAlignment="center"
+        android:layout_marginTop="27dp"
+        android:text="Hi admin, pilih categori makananmu dibawah ini"
+        android:layout_below="@+id/slogan_categori"
+        android:gravity="center_horizontal" />
+    <LinearLayout
+        android:id="@+id/linearCategoryLayout"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:gravity="center"
+        android:layout_marginTop="45dp"
+        android:layout_centerHorizontal="true"
+        android:layout_below="@+id/slogan_k">
+        <ImageView
+            android:id="@+id/nasi_box"
+            android:layout_width="180dp"
+            android:layout_height="80dp"
+            android:src="@drawable/tray"
+            />
+        <ImageView
+            android:id="@+id/tumpeng"
+            android:layout_width="80dp"
+            android:layout_height="80dp"
+            android:src="@drawable/tumpeng"
+            />
+        <ImageView
+            android:id="@+id/minuman"
+            android:layout_width="wrap_content"
+            android:layout_height="80dp"
+            android:src="@drawable/cuba"
+            />
+
+
+    </LinearLayout>
+    <Button
+        android:layout_width="300dp"
+        android:layout_centerHorizontal="true"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/admin_logout_btn"
+        android:text="check new orders"
+        android:layout_marginBottom="20dp"
+        android:background="@drawable/button"
+        android:id="@+id/chek_order_btn"
+        />
+    <Button
+        android:layout_width="300dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="30dp"
+        android:background="@drawable/button"
+        android:text="Logout"
+        android:id="@+id/admin_logout_btn"
+        />
+
+</RelativeLayout>

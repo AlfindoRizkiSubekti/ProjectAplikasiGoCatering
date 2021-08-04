@@ -1,0 +1,165 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".AdminActivity">
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".AdminActivity">
+    <ImageView
+        android:layout_width="350dp"
+        android:layout_height="200dp"
+        android:id="@+id/select_product_image"
+        android:cropToPadding="false"
+        android:scaleType="centerCrop"
+        android:src="@drawable/profile"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="10dp"
+
+        />
+    <EditText
+        android:id="@+id/product_name"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/select_product_image"
+        android:padding="20dp"
+        android:hint="Product name..."
+        android:layout_marginLeft="45dp"
+        android:layout_marginRight="45dp"
+
+        />
+    <EditText
+        android:id="@+id/product_description"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/product_name"
+        android:padding="20dp"
+        android:hint="Product description..."
+        android:layout_marginLeft="45dp"
+        android:layout_marginRight="45dp"
+        />
+    <TextView
+        android:id="@+id/pilihan_nasi"
+        android:layout_width="match_parent"
+        android:layout_below="@+id/product_description"
+        android:layout_height="wrap_content"
+        android:text="Masukan Pilihan nasi:"
+        android:textSize="20dp"
+        android:textAlignment="center"
+        android:gravity="center"
+        />
+    <EditText
+        android:id="@+id/product_nasi1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/pilihan_nasi"
+        android:padding="20dp"
+        android:hint="pilihan nasi 1..."
+        android:layout_marginLeft="45dp"
+        android:layout_marginRight="45dp"
+        />
+    <EditText
+        android:id="@+id/product_nasi2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/product_nasi1"
+        android:padding="20dp"
+        android:hint="pilihan nasi 2..."
+        android:layout_marginLeft="45dp"
+        android:layout_marginRight="45dp"
+        />
+    <TextView
+        android:id="@+id/pilihan_Lauk_1"
+        android:layout_width="match_parent"
+        android:layout_below="@+id/product_nasi2"
+        android:layout_height="wrap_content"
+        android:text="Masukan Pilihan Lauk 1:"
+        android:textSize="20dp"
+        android:textAlignment="center"
+        android:gravity="center"
+        />
+    <EditText
+        android:id="@+id/product_lauk1_1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/pilihan_Lauk_1"
+        android:padding="20dp"
+        android:hint="pilihan nasi 2..."
+        android:layout_marginLeft="45dp"
+        android:layout_marginRight="45dp"
+        />
+    <EditText
+        android:id="@+id/product_lauk1_2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/product_lauk1_1"
+        android:padding="20dp"
+        android:hint="pilihan nasi 2..."
+        android:layout_marginLeft="45dp"
+        android:layout_marginRight="45dp"
+        />
+    <TextView
+        android:id="@+id/pilihan_Lauk_2"
+        android:layout_width="match_parent"
+        android:layout_below="@+id/product_lauk1_2"
+        android:layout_height="wrap_content"
+        android:text="Masukan Pilihan Lauk 2:"
+        android:textSize="20dp"
+        android:textAlignment="center"
+        android:gravity="center"
+        />
+    <EditText
+        android:id="@+id/product_lauk2_1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/pilihan_Lauk_2"
+        android:padding="20dp"
+        android:hint="pilihan nasi 2..."
+        android:layout_marginLeft="45dp"
+        android:layout_marginRight="45dp"
+        />
+    <EditText
+        android:id="@+id/product_lauk2_2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/product_lauk2_1"
+        android:padding="20dp"
+        android:hint="pilihan nasi 2..."
+        android:layout_marginLeft="45dp"
+        android:layout_marginRight="45dp"
+        />
+    <EditText
+        android:id="@+id/product_price"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/product_lauk2_2"
+        android:padding="20dp"
+        android:hint="Product Price..."
+        android:layout_marginLeft="45dp"
+        android:layout_marginRight="45dp"
+
+        />
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/add_new_product"
+        android:layout_below="@id/product_price"
+        android:hint="Add Product"
+        android:background="@drawable/button"
+        android:layout_marginLeft="45dp"
+        android:layout_marginRight="45dp"
+        android:layout_marginTop="20dp"
+        android:textSize="18sp"
+
+        />
+
+
+</RelativeLayout>
+</ScrollView>

@@ -1,0 +1,105 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    app:layout_behavior="@string/appbar_scrolling_view_behavior"
+    tools:showIn="@layout/app_bar_home">
+    <View
+        android:id="@+id/rectangle_8"
+        android:layout_width="match_parent"
+        android:layout_height="220dp"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:background="@drawable/header"
+        />
+
+
+
+    <TextView
+        android:layout_marginTop="20dp"
+        android:id="@+id/introbos"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="15dp"
+        android:layout_marginRight="30dp"
+        android:layout_marginLeft="30dp"
+        android:text="Tunggu apa lagi, Yuk beli..."
+        />
+
+    <EditText
+        android:id="@+id/search"
+        android:layout_width="347dp"
+        android:layout_height="44dp"
+        android:layout_marginTop="5dp"
+        android:layout_below="@+id/introbos"
+        android:layout_centerHorizontal="true"
+        android:background="@drawable/button"
+        android:backgroundTint="@color/white"
+        android:hint="    Search"
+
+        />
+
+    <RelativeLayout
+        android:id="@+id/linearCategoryLayout"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/search"
+        android:layout_margin="30dp"
+        android:layout_marginTop="26dp"
+        >
+
+        <ImageView
+            android:id="@+id/nasi_box"
+            android:layout_width="80dp"
+            android:background="@drawable/menu"
+            android:backgroundTint="@color/silver"
+            android:layout_height="80dp"
+            android:src="@drawable/tumpeng" />
+
+        <ImageView
+            android:id="@+id/tumpeng"
+            android:layout_width="80dp"
+            android:layout_height="80dp"
+            android:src="@drawable/cuba"
+            android:layout_alignParentEnd="true"
+            android:background="@drawable/menu"
+            android:backgroundTint="@color/silver"
+            android:layout_marginRight="5dp"
+            android:layout_marginLeft="5dp"
+            android:textAlignment="viewEnd"
+            android:textStyle="bold"
+            android:layout_alignParentRight="true"
+            android:gravity="end"/>
+
+        <ImageView
+            android:id="@+id/minuman"
+            android:layout_width="80dp"
+            android:layout_height="80dp"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentEnd="true"
+            android:layout_alignParentRight="true"
+            android:layout_marginStart="129dp"
+            android:layout_marginLeft="129dp"
+            android:layout_marginEnd="135dp"
+            android:layout_marginRight="135dp"
+            android:background="@drawable/menu"
+            android:backgroundTint="@color/silver"
+            android:gravity="end"
+            android:src="@drawable/tray"
+            android:textAlignment="viewEnd"
+            android:textStyle="bold" />
+
+    </RelativeLayout>
+    <androidx.recyclerview.widget.RecyclerView
+        android:id="@+id/recycle_menu"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_below="@+id/rectangle_8"
+        android:layout_marginTop="1dp"
+        android:scrollbars="vertical" />
+
+
+</RelativeLayout>
